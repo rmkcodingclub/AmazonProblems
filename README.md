@@ -155,9 +155,8 @@ of comparisons?
 
 30. Write a C program for level order traversal of a tree?
 
-31. You are given: 3 types of vehicles: Motorbike, Car, and a special type of car for 
-the handicapped.
-3 Types of parking: Motorbike parking, Car parking, handicapped car parking.
+31.You are given: 3 types of vehicles: Motorbike, Car, and a special type of car for 
+the handicapped. 3 Types of parking: Motorbike parking, Car parking, handicapped car parking.
 Motorbikes and cars can only park in their designated parkings, while the 
 handicapped cars can park either in their own parking or the regular car parking.
 How would you model this as classes? Explain your methods.
@@ -167,7 +166,7 @@ there.write a query which displays empname,correspondingdeptname also
 display those employee names who donot belong to any dept.
 Display the employees whose salary is less than average salary.
 
-33. what is the output of the program
+33.what is the output of the program
 
 main()
 
@@ -179,9 +178,7 @@ printf("%d %d %d",c,c<<2,c>> 2);
 
 }
 
-34.
-
-main()
+34.main()
 
 {
 
@@ -259,5 +256,6 @@ c)when the ele are sorted in non increasing order
 a)x is always a prime
 b)x is a power of 2
 c)x is even d)x is odd
+
 
 40.what is valid in cpp char *cp; const char *cpp; 1) cpp=cp; 2) cp=cpp;
