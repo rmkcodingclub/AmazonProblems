@@ -1,0 +1,27 @@
+Solution by Pavithra B, 111712205071, IT dept.
+
+
+Actually this creates 50 bytes which may cause memory leak. therefore after printing p, we should free the variable p and q(i.e.. free(p),free(q)).
+
+It may cause ExitFailure 9 which may arise due to memory exhaution
+
+correct code:
+
+#include<stdio.h>
+#include<string.h>
+main()
+{
+char *p,*q;
+p=(char *)malloc(25);
+q=(char*) malloc(25);
+strcpy(p,"amazon" );
+strcpy(q,"hyd");
+strcat(p,q);
+printf("%s",p);
+free(p);
+free(q);
+return 0;
+}
+
+Output:
+amazonhyd
