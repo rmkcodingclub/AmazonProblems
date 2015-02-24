@@ -1,0 +1,29 @@
+//Solved by Sai Shree, Dept of CSE
+
+Array
+
+An array will eventually either fill up or need to be
+resized, an expensive operation that may not even 
+be possible if memory is fragmented.
+
+If many elements are removed memory may 
+become wastefully empty or need to be made 
+smaller.
+
+Arrays allow random access to elements.
+
+Searching becomes bit easier
+
+Linked list
+
+Elements can be inserted into linked lists 
+indefinitely.
+
+This is not a big issue in Linked list.
+
+Linked lists allow only sequential access to
+elements.
+
+Searching consumes time when compared to Array
+because it has to access sequentially
+
