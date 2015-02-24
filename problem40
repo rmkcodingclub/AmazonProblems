@@ -1,0 +1,16 @@
+Solved by 
+V.VIDHYA 
+111712205106 IT-B
+
+which is valid in cpp?
+char *cp;
+const char*cpp;
+1.cp=cpp;
+2.cpp=cp;
+
+
+
+Answer:
+ 2 is valid.
+since the conversion from a constant pointer to a normal pointer is invalid
+(cp=cpp is invalid)
