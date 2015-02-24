@@ -1,0 +1,96 @@
+//Solved by Sagar M, Dept of CSE
+
+
+C Array
+
+An array is a collection of same type of elements which are sheltered under a common name.
+
+<type-of-array> <name-of-array> [<number of elements in array>];
+
+  arr[i] = i; // Initializing each element seperately 
+
+Accessing Values in an Array:
+
+  arr[i] = i; // Initializing each element separately 
+
+int j = arr[5]; // Accessing the 6th element of integer array arr and assigning 
+
+    struct st st_arr[3]; // Declare an array of 3 structure objects 
+
+    struct st st_obj0; // first structure object
+
+    struct st st_obj1; //Second structure object
+
+    struct st st_obj2; // Third structure object
+
+    st_arr[0] = st_obj0; // Initializing first element of array with first 
+
+    st_arr[1] = st_obj1; // Initializing second element of array with second 
+
+    st_arr[2] = st_obj2; // Initializing third element of array with third 
+
+    printf("\n First Element of array has values of a = [%d] and c = [%c]\n", 
+
+    printf("\n Second Element of array has values of a = [%d] and c = [%c]\n", 
+
+    printf("\n Third Element of array has values of a = [%d] and c = [%c]\n", 
+
+Pointers in C Programming language is very powerful. Combining pointers with arrays can be very 
+
+A Simple C Program using Arrays
+
+Consider this simple program that copies a string into an array and then changes one of its 
+
+    char arr[4];// for accommodating 3 characters and one null '\0' byte.
+
+    char *ptr = "abc"; //a string containing 'a', 'b', 'c', '\0' 
+
+    memset(arr, '\0', sizeof(arr)); //reset all the bytes so that none of the 
+
+    strncpy(arr,ptr,sizeof("abc")); // Copy the string "abc" into the array arr 
+
+    printf("\n %s \n",arr); //print the array as string 
+
+    arr[0] = 'p'; // change the first character in the array 
+
+    printf("\n %s \n",arr);//again print the array as string
+
+I think the program is self explanatory as I have added plenty of comments. The output of the above 
+
+In C, an array is a fixed-size region of contiguous storage containing multiple 
+
+objects, one after the other. This array is an "object" in the meaning which C gives to the 
+
+word - basically just some memory that represents something. An object could just be 
+
+You can distinguish slightly between array objects, and array types. Often people 
+
+use array objectswhich are allocated with malloc, and used via a pointer to the first element. 
+
+But C does also have specific types for arrays of different sizes, and also for variable-
+
+length-arrays, whose size is set when they are created. VLAs have a slightly misleading 
+
+name: the size is only "variable" in the sense that it isn't fixed at compile time. It can't 
+
+change during the lifetime of the object.
+
+So, when I say an array is fixed-size I mean that the size cannot change once the 
+
+array is created, and this includes VLAs. There is realloc, which logically returns a pointer 
+
+to a new array that replaces the old one, but can sometimes return the same address 
+
+passed in, having changed the size of the array in place. realloc operates on memory 
+
+allocations, not on arrays in general.
+
+That's what an array is. The C programming language doesn't define anything called 
+
+a list. Can't really compare something which is well defined, with something that isn't 
+
+defined ;-) Usually "list" would mean a linked list, but in some contexts or in other languages 
+
+For that matter, in other languages "array" could mean other things, although I can't 
+
+immediately think of a language where it means anything very different from a C array
