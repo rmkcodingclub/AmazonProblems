@@ -13,7 +13,7 @@ repeated once.How to find that non repeated no.
 meeting point.
 
 4. How do you convert a decimal number to its hexa-decimal equivalent.Give a C 
-code to do the same
+code to do the same.
 
 5. Given an array all of whose elements are positive numbers, find the maximum 
 sum of a subsequence with the constraint that no 2 numbers in the sequence 
