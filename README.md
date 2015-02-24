@@ -62,10 +62,10 @@ the regular expression.
 and give the minimum no of comparisons needed on an array of size N to do the 
 same.
 
-17. Given an array of size n ,containing every element from 1 to n+1, except one. 
+17.Given an array of size n ,containing every element from 1 to n+1, except one. 
 Find the missing element.
 
-18. Two trains enter at the opposite sides of a tunnel of length L with speeds 'V'. 
+18.Two trains enter at the opposite sides of a tunnel of length L with speeds 'V'. 
 A particle enters the tunnel at the same time with a speed 'v' and it vibrates in 
 the tunnel[i.e. if it reaches the end of the tunnel then it comes back]. What is the 
 position of the particle by the time the 2 trains meet?
@@ -74,13 +74,13 @@ position of the particle by the time the 2 trains meet?
 number which is repeated in O(n) time .How do you proceed with the same with 
 floating numbers from 0 to 1 instead of 1 to n?
 
-20. Design a data structure to represent the movement of a knight on a chess 
+20.Design a data structure to represent the movement of a knight on a chess 
 board
 
-21. Write an algorithm to traverse a knight covering all the squares on a 
+21.Write an algorithm to traverse a knight covering all the squares on a 
 chessboard starting at a particular point.
 
-22. What is wrong with this class, assuming that this is its complete interface?
+22.What is wrong with this class, assuming that this is its complete interface?
 
 class C {
 
@@ -112,7 +112,7 @@ copied]. Now, the original goes out of scope, what happens to the copy? [pointer
 dangles]. How would you fix it?
 [also, that delete p should be delete[ p since p was allocated with the array new]
 Assuming that swap() and copy construction are part of your interface for class C, 
-what's the cookie-cutter pattern for operator= that uses them?
+whats the cookie-cutter pattern for operator= that uses them?
 answer:
 
 C& C:perator=(const C &rhs) {
@@ -124,21 +124,23 @@ return *this;
 }
 ]]
 
-23. “given two lists write a function which returns a list which is the intersection 
+23.given two lists write a function which returns a list which is the intersection 
 of the two lists.the original lists should remain same.
 (Intersection – if first list is say,1,20 3,45 and second list is 3,24 ,45,90,68 then 
 intersection should be 3,45 )
 
-24. Given two nodes of a binary tree find the closest ancestor of the two nodes.
+
+24.Given two nodes of a binary tree find the closest ancestor of the two nodes.
 Note:consider binary tree and binary search tree also.
 
-25. Given an array all of whose elements are positive numbers, find the maximum 
+
+25.Given an array all of whose elements are positive numbers, find the maximum 
 sum of a subsequence with the constraint that no 2 numbers in the sequence 
 should be adjacent in the array.
 i) 3 2 7 10 should return 13 (sum of 3 and 10)
 ii) 3 2 5 10 7 should return 15 (sum of 3, 5 and 7)
 
-26. Given a Binary Search Tree, write a program to print the kth smallest element 
+26.Given a Binary Search Tree, write a program to print the kth smallest element 
 without using any static/global variable. You can’t pass the value k to any function 
 also.
 
