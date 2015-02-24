@@ -15,17 +15,14 @@ meeting point.
 4.How do you convert a decimal number to its hexa-decimal equivalent.Give a C 
 code to do the same.
 
-4. How do you convert a decimal number to its hexa-decimal equivalent.Give a C 
-code to do the same.
-
-5. Given an array all of whose elements are positive numbers, find the maximum 
+5.Given an array all of whose elements are positive numbers, find the maximum 
 sum of a subsequence with the constraint that no 2 numbers in the sequence 
 should be adjacent in the array.
 Eg.
 i) 3 2 7 10 should return 13 (sum of 3 and 10)
 ii) 3 2 5 10 7 should return 15 (sum of 3, 5 and 7)
 
-6. Given a Binary Search Tree, write a program to print the kth smallest element 
+6.Given a Binary Search Tree, write a program to print the kth smallest element 
 without using any static/global variable. You can pass the value k to any function 
 also.
 
