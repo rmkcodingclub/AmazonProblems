@@ -150,10 +150,10 @@ is present at least once except for 2 numbers. Find the missing numbers.
 28.Given an array of size n. It contains numbers in the range 1 to n. Find the 
 numbers which aren't present.
 
-29. How would you find the second largest element in an array using minimum no 
+29.How would you find the second largest element in an array using minimum no 
 of comparisons?
 
-30. Write a C program for level order traversal of a tree?
+30.Write a C program for level order traversal of a tree?
 
 31.You are given: 3 types of vehicles: Motorbike, Car, and a special type of car for 
 the handicapped. 3 Types of parking: Motorbike parking, Car parking, handicapped car parking.
