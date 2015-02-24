@@ -1,3 +1,5 @@
+//Solution by Pavithra B, 111712205071, IT dept.
+
 #include<stdio.h>
 #include<stdlib.h>
 
