@@ -1,4 +1,5 @@
-Here is the solution for Amazon Problem No. 2
+//Here is the solution for Amazon Problem No. 2
+//Solved by M.Anandha Vignesh,CSE
 
 #include<stdio.h>
 void main()
