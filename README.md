@@ -55,7 +55,7 @@ of smaller cubes on the surface. Extend this to k-dimension.
 14.What is a C array and illustrate the how is it different from a list.
 
 15.Write a function which takes as parameters one regular expression(only ? and 
-* are the special characters) and a string and returns whether the string matched 
+`*` are the special characters) and a string and returns whether the string matched 
 the regular expression.
 
 16.Find the second largest element in an array with minimum no of comparisons 
