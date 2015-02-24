@@ -12,6 +12,9 @@ repeated once.How to find that non repeated no.
 3.There are 2 linked lists.Those 2 lists are meeting at a point. How to find that 
 meeting point.
 
+4.How do you convert a decimal number to its hexa-decimal equivalent.Give a C 
+code to do the same.
+
 4. How do you convert a decimal number to its hexa-decimal equivalent.Give a C 
 code to do the same.
 
