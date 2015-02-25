@@ -38,3 +38,19 @@ return null;
 }
 
 
+/**
+ * Solution by  Akila J, CSE
+*/
+
+ import java.io.*;
+public class RegexTestStrings
+ {
+  public static final String EXAMPLE_TEST = "This is my small example " + "string which I'm going to " + "use for pattern matching.";
+
+  public static void main(String[] args)
+ {
+
+   System.out.println(EXAMPLE_TEST.matches("^b*[a-z][a-z][a-z]$"));
+}
+}
+
