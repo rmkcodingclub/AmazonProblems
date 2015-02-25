@@ -10,3 +10,26 @@
 *select name from emp where emp.deptid=NULL;
 
 *select name from emp  where sal< avg(sal);
+
+//Solution by T Lokesh, IT
+CREATE TABLE emp(empid INT(10) PRIMARY KEY,name VARCHAR(30),deptid INT(10),sal INT(10));
+SELECT * FROM emp;
+INSERT INTO emp VALUES (1,'adhi',1110,10000);
+INSERT INTO emp VALUES (2,'Balaji',1111,15000);
+INSERT INTO emp VALUES (3,'cahndru',1111,20000);
+INSERT INTO emp VALUES (4,'dinesh',1113,25000);
+INSERT INTO emp VALUES (5,'Eswar',1113,30000);
+
+CREATE TABLE dept(deptid INT(10) PRIMARY KEY,deptname VARCHAR(30));
+SELECT * FROM dept; 
+INSERT INTO dept VALUES (1110,'export');
+INSERT INTO dept VALUES (1111,'development');
+INSERT INTO dept VALUES (1112,'r&d');
+INSERT INTO dept VALUES (1113,'testing');
+INSERT INTO dept VALUES (1114,'administration');
+
+SELECT NAME,deptname FROM emp,dept WHERE dept.deptid=emp.deptid;
+
+SELECT NAME FROM emp WHERE deptid NOT IN(SELECT deptid FROM dept);
+
+SELECT NAME FROM emp WHERE sal>(SELECT AVG(sal) FROM emp);
