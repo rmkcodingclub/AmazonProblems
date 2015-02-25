@@ -1,3 +1,30 @@
+//By Jayakumar, ECE
+#include<iostream>
+using namespace std;
+
+void main()
+{
+int n1,n2,i,j,a[50],b[50];
+cout<<"Enter the size of array 1";
+cin>>n1;
+for(i=0;i<n1;i++)
+cin>>a[i];
+cout<<"Enter the size of array 2";
+cin>>n2;
+for(j=0;j<n2;j++)
+cin>>b[j];
+for(i=0;i<n1;i++)
+{
+  for (j=0;j<n2;j++)
+  {
+    if (a[i]==b[j])
+     cout<<a[i];
+
+      }
+   }
+ }
+
+
 /*Solved by 
 Maneesha, Dept of ECE
 */
