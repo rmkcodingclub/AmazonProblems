@@ -1,0 +1,34 @@
+//By A. Divya, CSE
+KthElementIterative(struct node * root, int k)
+{
+struct node * temp = root;
+struct node * x;
+
+push(root);
+temp = temp->left;
+
+while( stack is not empty)
+{
+
+while( temp ! = NULL)
+{
+push( temp );
+temp = temp ->left;
+}
+
+x = pop();
+count ++;
+
+if(count == k )
+break;
+
+
+if( x->right)
+{push(x-right);temp = x->right;}
+
+else temp=null;
+
+}
+
+return x->data;
+}
