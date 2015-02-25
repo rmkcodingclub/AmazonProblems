@@ -1,5 +1,5 @@
 //Here is the solution for Amazon Problem No. 2
-//Solved by M.Anandha Vignesh,CSE
+//Solved by M.Anandha Vignesh and Akil Kumar,CSE
 
 #include<stdio.h>
 void main()
