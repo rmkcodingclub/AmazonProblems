@@ -164,3 +164,132 @@ int main()
   getchar();
   return 0;
 }
+
+
+//Solved by Gouthaman Raaj, IT
+
+//level order traversal of tree (question 30)
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+struct node
+
+{
+
+int data;
+
+struct node* left;
+
+struct node* right;
+
+};
+
+void printLevelOrder(struct node* root)
+
+{
+
+int i;
+
+int h = height(root);
+
+for(i=1; i<=h; i++)
+
+printGivenLevel(root, i);
+
+}
+
+void printGivenLevel(struct node* root, int level)
+
+{
+
+if(root == NULL)
+
+{
+
+printf("traversal is completed");
+
+}
+
+if(level == 1)
+
+printf("%d ", root->data);
+
+else if (level > 1)
+
+{
+
+printGivenLevel(root->left, level-1);
+
+printGivenLevel(root->right, level-1);
+
+}
+
+}
+
+int height(struct node* node)
+
+{
+
+if (node==NULL)
+
+return 0;
+
+else
+
+{
+
+int lheight = height(node->left);
+
+int rheight = height(node->right);
+
+if (lheight > rheight)
+
+return(lheight+1);
+
+else return(rheight+1);
+
+}
+
+}
+
+struct node* newNode(int data)
+
+{
+
+struct node* node = (struct node*)
+
+malloc(sizeof(struct node));
+
+node->data = data;
+
+node->left = NULL;
+
+node->right = NULL;
+
+return(node);
+
+}
+
+void main()
+
+{
+
+struct node *root = newNode(1);
+
+root->left = newNode(2);
+
+root->right = newNode(3);
+
+root->left->left = newNode(4);
+
+root->left->right = newNode(5);
+
+printf("Level Order traversal of tree is \n");
+
+printLevelOrder(root);
+
+}
+
+ 
