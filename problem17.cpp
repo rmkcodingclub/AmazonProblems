@@ -23,3 +23,41 @@ int main()
         cout << (xor1 ^ xor2);
 	return 0;
 }
+
+//SOlved by Vignesh CS, CSE
+
+#include<conio.h>
+
+#include<iostream.h>
+
+int main()
+
+{
+
+int a=0,b=0,i,n,c[10];
+
+Cin>>n;
+
+For(i=o;i<n;i++)
+
+{cin>>c[i];
+
+}
+
+For(i=0;i<n;i++)
+
+{
+
+a ^=i;
+
+b ^=c[i];
+
+}
+
+a ^=n;
+
+char d=a ^ b;
+
+cout<<d;
+
+}
