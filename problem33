@@ -1,0 +1,16 @@
+//Solved by Lokesh Kumar, Dept of IT
+33. what is the output of the program
+
+main()
+
+{
+
+int c=5;
+
+printf("%d %d %d",c,c<<2,c>> 2);
+
+}
+
+
+OUTPUT :
+5 20 1
