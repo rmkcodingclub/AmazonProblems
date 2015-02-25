@@ -14,3 +14,11 @@ printf("%d %d %d",c,c<<2,c>> 2);
 
 OUTPUT :
 5 20 1
+
+
+//Solution by R.Madhushree, IT
+
+Answer for the question is:
+5 20 1 
+Reason:
+During left shift operation the empty spaces are filled by zero and during right shift the empty spaces are filled by ones... By applying the above principle the answer is got
