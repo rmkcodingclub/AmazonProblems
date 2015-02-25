@@ -1,0 +1,12 @@
+//Solved by Krishna Sumedh, IT
+
+
+*CREATE TABLE emp(empid int,name varchar(500),deptid int,sal float );
+
+*CREATE TABLE dept(deptid int,deptname varchar(500));
+
+*select emp.name from emp,dept.deptname from dept where emp.deptid=dept.deptid;
+
+*select name from emp where emp.deptid=NULL;
+
+*select name from emp  where sal< avg(sal);
