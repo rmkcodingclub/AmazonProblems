@@ -1,0 +1,4 @@
+//Solution by S.Reshma Farhana, IT
+
+Prefix Notation: - * +ABC ^ +DE - FG
+Postfix Notation: AB + C * DE + FG - ^ -
