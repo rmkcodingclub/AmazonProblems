@@ -8,9 +8,9 @@ void main()
 
 {
 
-float  a[20],xor,c;
+int  a[20];
 
-int i,n,repeat;
+int I,j,total=0,tot=0,n,tot=0,repeat;
 
 clrscr();
 
@@ -24,17 +24,17 @@ for(i=0;i<=(n-1);i++)
 
 {
 
-Scanf(“%f”,&a[i]);
+Scanf(“%d”,&a[i]);
 
-mul=a[i]*100;
+Total^=a[i];
+
+Tot^=I;
 
 }
 
-Xor=mul/10;
+repeat=total^tot;
 
-C=xor/10;
-
-printf(“\n The repeated num is %f\n”,c);
+printf(“\n The repeated num is %d\n”,repeat);
 
 getch();
 
