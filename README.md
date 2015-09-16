@@ -259,3 +259,5 @@ c)x is even d)x is odd
 
 
 40.what is valid in cpp char *cp; const char *cpp; 1) cpp=cp; 2) cp=cpp;
+
+41.what is valid in cpp char *cp; const char *cpp; 1) cpp=cp; 2) cp=cpp;
